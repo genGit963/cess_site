@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import AppRouter from "./AppRoutes";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
+  // #1D8CE0 : (29,140,224) : primary color 
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.up("lg"));
+
+  const app_style = {
+    marginLeft: matches ? "8%" : 1,
+    marginRight: matches ? "8%" : 1,
+    // border: "solid 1px",
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={app_style}>
+      <Navbar />
+      <AppRouter />
+      <Footer />
     </div>
   );
 }
