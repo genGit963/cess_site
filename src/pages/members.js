@@ -76,6 +76,7 @@ const Members = () => {
       </Typography>
 
       <Divider />
+      {/* ------------------------------- Members card ------------------------- */}
 
       <Grid>
         <div

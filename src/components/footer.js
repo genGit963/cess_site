@@ -41,7 +41,7 @@ function Footer() {
                 fontWeight: "600",
               }}
             >
-              CESS-IOE, <br /> Purwanchal Campus
+              CESS-IOE, ERC <br /> Purwanchal Campus
             </Typography>
           </Item>
         </Grid>

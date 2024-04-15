@@ -10,9 +10,8 @@ function App() {
   const matches = useMediaQuery(theme.breakpoints.up("lg"));
 
   const app_style = {
-    marginLeft: matches ? "8%" : 1,
-    marginRight: matches ? "8%" : 1,
-    // border: "solid 1px",
+    marginLeft: matches ? "8%" : 4,
+    marginRight: matches ? "8%" : 4,
   };
 
   return (

@@ -13,8 +13,8 @@ import { Link as RouterLink } from "react-router-dom";
 import { CESS_LOGO } from "../assets/assets-exp";
 import { Link, colors } from "@mui/material";
 
-const pages = ["Home", "Members", "Events", "Magazine", "About", "Others"];
-const pagesmd = ["Others", "About", "Magazine", "Events", "Members", "Home"];
+const pages = ["Home", "Members", "Events", "Magazine", "About"];
+const pagesmd = ["About", "Magazine", "Events", "Members", "Home"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -57,7 +57,7 @@ function Navbar() {
               fontSize: "2rem",
             }}
           >
-            CESS-IOE
+            CESS-ERC
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
