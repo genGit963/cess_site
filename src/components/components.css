@@ -20,7 +20,7 @@
 .gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
-  cursor: pointer;
+  cursor:zoom-in;
   margin-bottom: 12px;
   border-radius: 5px;
 }
@@ -47,7 +47,7 @@
   opacity: 0;
   transform: scale(0);
   overflow: hidden;
-  z-index: 999;
+  cursor: zoom-out;
 }
 
 .open {
@@ -95,6 +95,7 @@
   box-sizing: border-box;
   padding: 20px 0 20px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 /* --------------------- media for event images ---------------- */
@@ -120,10 +121,18 @@
   .close_icon {
     position: fixed;
     top: 30%;
-    right: 6%;
+    right: 4%;
     cursor: pointer;
     border-radius: 10;
     align-items: center;
     color: #cd0808;
   }
+}
+
+
+
+/* ----------- footer ----------- */
+
+.mahesh:hover{
+  text-decoration: underline;
 }

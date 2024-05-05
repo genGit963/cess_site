@@ -16,6 +16,7 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
   const handleExploreMore = () => {
     navigate(`/events/${sn}`);
   };
+
   const card_style = {
     height: "10%",
     width: "300px",
@@ -26,6 +27,8 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
     background: `${colors.blue[50]}`,
     padding: "3%",
     margin: "4% auto",
+    borderRadius: "10px",
+    boxShadow: `1px 1px 1px 1px ${colors.grey[300]}`,
   };
   return (
     <Card elevation={0} sx={card_style}>
@@ -33,7 +36,14 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
         src={theme_pic}
         height={250}
         width={"95%"}
-        style={{ borderRadius: 8, objectFit: "cover", margin: "2% auto" }}
+        style={{
+          borderRadius: 8,
+          objectFit: "cover",
+          margin: "2% auto",
+          boxShadow: "1px 1px 5px gray",
+          transition: "transform 0.3s ease",
+          cursor: "pointer",
+        }}
         alt={`${headline}_picture`}
       />
       <Typography
@@ -41,10 +51,13 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
         color={colors.blue[900]}
         fontSize={18}
         padding={1}
+        textAlign={"center"}
       >
         {headline}
       </Typography>
-      <Typography fontSize={15}>{bit_detail}</Typography>
+      <Typography fontSize={15} textAlign={"center"}>
+        {bit_detail}
+      </Typography>
       <Button
         variant="contained"
         onClick={handleExploreMore}

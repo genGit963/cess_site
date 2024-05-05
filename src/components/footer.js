@@ -7,6 +7,7 @@ import Grid from "@mui/material/Unstable_Grid2";
 import { Typography, colors } from "@mui/material";
 import { Link } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
+import "./components.css";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -21,7 +22,7 @@ const pages = ["About", "Contact"];
 function Footer() {
   return (
     <Box
-      padding={'1%'}
+      padding={"1%"}
       sx={{
         flexGrow: 1,
         margin: "4% auto 2% auto",
@@ -76,7 +77,9 @@ function Footer() {
                 {page}
               </Link>
             ))}
-            <br style={{ marginTop: "5%" }} /> copyright©2004
+            <br style={{ marginTop: "5%" }} /> copyright ©2004
+            <br />
+            All rights reserved
           </Item>
         </Grid>
 
@@ -98,13 +101,17 @@ function Footer() {
       </Grid>
 
       <Grid xs={12} md={12}>
-        <Item elevation={0}sx={{fontFamily:"Poppins"}}>
-          Powered by
+        <Item elevation={0} sx={{ fontFamily: "Poppins" }}>
+          Designed and developed by <br />
           <a
-          target="_blanck"
-          href="https://www.linkedin.com/in/mahesh-bogati-540066262/"
-          style={{textDecoration:"none", color:colors.blue[900]}}
-          >{' '}Mahesh Bogati 076BEI</a>
+            target="_blanck"
+            href="https://www.linkedin.com/in/mahesh-bogati-540066262/"
+            style={{ textDecoration: "none", color: colors.blue[900] }}
+            className="mahesh"
+          >
+            {" "}
+            Mahesh Bogati / 076BEI
+          </a>
         </Item>
       </Grid>
     </Box>

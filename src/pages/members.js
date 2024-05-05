@@ -11,6 +11,7 @@ function MemberCard({ name, pic, post, batch, profile_links }) {
     flexDirection: "column",
     justifyContent: "center",
     background: `${colors.blue[50]}`,
+    boxShadow:`1px 1px 1px 1px ${colors.grey[300]}`,
     padding: "3%",
     margin: "4% auto",
   };
@@ -23,6 +24,7 @@ function MemberCard({ name, pic, post, batch, profile_links }) {
         width={180}
         style={{ borderRadius: 100, objectFit: "cover" }}
         alt={`${name}_pic`}
+        loading="lazy"
       />
       <Typography
         fontWeight={500}

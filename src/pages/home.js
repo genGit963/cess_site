@@ -200,7 +200,7 @@ function Home() {
             <AwardsTemplate awards_position="Runner up " events_detail="Popsicle Building Shake Table DELTA 4.0 (National Events)" />
             <AwardsTemplate awards_position={"Participation "} events_detail={"Hydropower model DELTA 4.0 (National Events)"} />
             <AwardsTemplate awards_position="Runner UP" events_detail="FSU Cup 2080" />
-            <AwardsTemplate awards_position="Winner " events_detail="ERC 5km Marathon (Boy and Girl)" />
+            <AwardsTemplate awards_position="2 Winners " events_detail="ERC 5km Marathon (Both Boy and Girl)" />
             <AwardsTemplate awards_position="Runner Up " events_detail="ERC 5km Marathon (Boy)" />
             <AwardsTemplate awards_position={"Winner "} events_detail={"NTBNS 200x4 Relay Race (Boy and Girl)"} />
             <AwardsTemplate awards_position={"Winner "} events_detail={"AutoCAD Drafting Competition"} />

@@ -1,9 +1,15 @@
 import { Box, Divider, Typography, colors } from "@mui/material";
 import { useParams } from "react-router-dom";
 import EventImages from "../components/event-img-view";
+import { events_data } from "../data/events-data";
+// import erc_run from "../assets/CESS/erc_run/"
 
 const EventsView = () => {
   let { event_id } = useParams();
+  const eventData = events_data.filter(
+    (event) => event.sn === Number(event_id)
+  );
+
   return (
     <Box>
       <Typography
@@ -15,7 +21,7 @@ const EventsView = () => {
           fontWeight: 500,
         }}
       >
-        Event Story In-Depth
+        Events in Depth
       </Typography>
       <Divider />
       <Typography
@@ -27,45 +33,24 @@ const EventsView = () => {
           fontWeight: 500,
         }}
       >
-        Event Title : {event_id}
+        {eventData[0].headline}
       </Typography>
       <Divider />
-      <Typography
-        textAlign="justify"
+      <div
         style={{
+          textAlign: "justify",
           padding: "2%",
           color: colors.common.black,
           fontWeight: 400,
         }}
       >
-        Et eiusmod cillum velit in dolore et mollit anim eu laboris labore nulla
-        duis occaecat. Nisi do commodo ea ullamco sunt consectetur voluptate. Et
-        incididunt ex sunt labore commodo sunt non est ex in. Voluptate ea elit
-        incididunt veniam dolor anim. Excepteur amet sint ipsum amet nulla
-        excepteur nulla velit incididunt. Amet est minim nostrud in ipsum
-        voluptate laboris laboris voluptate ipsum cillum. Commodo excepteur
-        officia labore excepteur nulla esse dolor.
-        <br /> <br />
-        Minim consequat culpa adipisicing eu aliquip veniam eiusmod et Lorem
-        reprehenderit. Mollit commodo nisi id dolor duis ipsum esse in proident
-        culpa consectetur. Labore consectetur mollit laboris cupidatat consequat
-        sunt nostrud dolore ut amet commodo ea.
-        <br /> <br />
-        Reprehenderit est sit veniam officia labore fugiat exercitation sit
-        ullamco adipisicing eiusmod pariatur. Voluptate cupidatat commodo dolore
-        elit. Qui aute commodo eiusmod occaecat in velit reprehenderit id enim.
-        Voluptate id excepteur velit ex aliquip officia in magna non nisi
-        incididunt et enim. Exercitation ut mollit magna est esse id minim do
-        exercitation velit nulla occaecat. Tempor sint ea cillum tempor
-        adipisicing duis consectetur reprehenderit dolor qui ullamco incididunt.
-        Velit consectetur ea cillum Lorem adipisicing in qui elit esse nulla
-        elit enim.
-      </Typography>
+        {eventData[0].in_depth}
+      </div>
 
       {/* -------------------------- event images --------------------- */}
-      <div>
+      <div style={{margin:"30px auto"}}>
         {/* <EventsQuiltedImages /> */}
-        <EventImages />
+        <EventImages img_list={eventData[0].images} />
       </div>
     </Box>
   );

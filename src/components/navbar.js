@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <AppBar
       elevation={0}
-      sx={{ background: "white", color: "black", position: "sticky", top: 0 }}
+      sx={{ background: "white", color: "black", position: "sticky", top: 0, zIndex:5}}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
