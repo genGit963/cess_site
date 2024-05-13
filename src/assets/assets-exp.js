@@ -1,5 +1,5 @@
 // svg
-import { ReactComponent as CESS_LOGO } from "./cess-logo.svg";
+import { ReactComponent as CESS_LOGO } from "./cess_logo.svg";
 import { ReactComponent as OBJECTIVE_PIC } from "./objectives-pic.svg";
 import { ReactComponent as AWARDS_PIC } from "./awards.svg";
 import { ReactComponent as ERROR404_PIC } from "./error404.svg";

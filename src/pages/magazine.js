@@ -1,5 +1,6 @@
 import { Box, Divider, Typography, colors } from "@mui/material";
-import EventsQuiltedImages from "../components/event_images";
+import { magazine_photo } from "../assets/magazine/data";
+import EventImages from "../components/event-img-view";
 
 const Magazine = () => {
   return (
@@ -55,7 +56,7 @@ const Magazine = () => {
         minim labore aliqua pariatur.
       </Typography>
       <div>
-        <EventsQuiltedImages />
+        <EventImages img_list={magazine_photo} />
       </div>
     </Box>
   );

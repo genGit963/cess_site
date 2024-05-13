@@ -74,7 +74,7 @@ const Members = () => {
           fontWeight: 500,
         }}
       >
-        18th Committee Members
+        19th Committee Members
       </Typography>
 
       <Divider />

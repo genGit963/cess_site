@@ -1,4 +1,5 @@
 // all thematic_pic only
+
 // erc run
 import erc_run1 from "../assets/CESS/erc_run/1.jpg";
 import erc_run2 from "../assets/CESS/erc_run/2.jpg";
@@ -26,6 +27,15 @@ import rr2 from "../assets/CESS/Relay_Race/2.jpg";
 import rr3 from "../assets/CESS/Relay_Race/3.jpg";
 import rr4 from "../assets/CESS/Relay_Race/4.jpg";
 import rr6 from "../assets/CESS/Relay_Race/6.jpg";
+
+// FSU 2080 sn: 4
+// AutoCAD Training: sn : 5
+// AutoCAD Drafting Competition sn: 6
+// CESS Alumni Unite and Registration sn:7
+// Valuation Training in Collaboration with FSU sn:8
+// Popsicle Stick Building Shake Table Competition sn:9
+// Hydropower Model on Delta 4.O, 2080 sn:10
+// Popsicle Stick Building Shake Table Competition sn:11
 
 export const events_data = [
   {
@@ -211,88 +221,384 @@ export const events_data = [
     sn: 4,
     theme_pic:
       "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
-    headline: "Our Marvel Support Event",
+    headline: "Free Student Union Cup -2080",
     bit_detail:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing.",
-    in_depth:
-      "The Lord of the Rings is an epic[1] high fantasy novel[a] by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold, The title refers to the story's main antagonist,[b] Sauron, the Dark Lord who in an earlier age created the One Ring to rule the other Rings of Power given to Men, Dwarves, and Elves, in his campaign to conquer all of Middle-earth. From homely beginnings in the Shire, a hobbit land reminiscent of the English countryside, the story ranges across Middle-earth, following the quest to destroy the One Ring, seen mainly through the eyes of the hobbits Frodo, Sam, Merry, and Pippin. Aiding Frodo are the Wizard Gandalf, the Men Aragorn and Boromir, the Elf Legolas, and the Dwarf Gimli, who unite in order to rally the Free Peoples of Middle-earth against Saurons armies and give Frodo a chance to destroy the One Ring in the fire of Mount Doom.",
+      "FSU CUP – 2080 commenced with ERC Run-5Km on 14th Poush 2080, including various physical and mental sports which celebrate its....",
+    in_depth: (
+      <>
+        <p>
+          Free Student Union Cup -2080 encompass a wide range of Sports
+          activities with physical and mental performance that involve skill,
+          strategy, and competition. They are organized into various disciplines
+          and played either individually or as part of a team. <br /> <br />
+          FSU CUP – 2080 commenced with ERC Run-5Km on 14th Poush 2080,
+          including various physical and mental sports which celebrate its
+          closing ceremony on 1st Magh 2080. It consist of various sports as ERC
+          Run -5 km, Football, Volleyball, Cricket, Kabadi, Basketball,
+          Badminton, Table Tennis, Chess. <br />
+          Civil Faculty got the title{" "}
+          <span style={{ fontWeight: 600 }}>
+            Runner Up of “FSU CUP- 2080”
+          </span>{" "}
+          with the total score of 53 points from various games.{" "}
+        </p>{" "}
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>
+          Civil Boys Achievements
+        </p>
+        <p>
+          <span style={{ fontWeight: 600 }}>Winner</span>: Volleyball *Captain
+          (Neerajan Basnet), CESS President
+        </p>
+        <p>
+          <span style={{ fontWeight: 600 }}>Winner</span>: Cricket * Captain
+          (Raj Ratan Jha){" "}
+        </p>
+        <p>
+          <span style={{ fontWeight: 600 }}>Winner</span>: Badminton (Ankit
+          Kumar Chaurasia){" "}
+        </p>
+        <p>2nd Runner Up: Badminton (Neerajan Basnet), CESS President</p> <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>
+          Civil Girls Achievements
+        </p>
+        <p>
+          <span style={{ fontWeight: 600 }}>Winner</span>: Basket Ball *Captain
+          (Apurwa Thakur){" "}
+        </p>
+        <p>
+          <span style={{ fontWeight: 600 }}>Winner</span>: Badminton *Captain
+          (Manisha Karki){" "}
+        </p>
+        <p>
+          <span style={{ fontWeight: 500 }}>Runner Up</span>: Football *Captain
+          (Manisha Karki){" "}
+        </p>
+        <p>
+          <span style={{ fontWeight: 500 }}>Runner Up</span>: Kabadi *Captain
+          (Nikita Shah){" "}
+        </p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 5,
     theme_pic:
       "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
-    headline: "Our Lord of the Ring Event",
+    headline: "AutoCAD Training 2080",
     bit_detail:
-      "The Lord of the Rings is a trilogy of epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by British author.",
-    in_depth:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing Worldwide since March 2023. Marvel was founded in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in August 1961 with the launch of The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko, and many others. The Marvel brand, which had been used over the years and decades, was solidified as the company's primary brand.",
+      "CESS 19th Committee successfully completed its AutoCAD training from basic to Municipal Drawing on 15th Poush 2080 commenced.....",
+    in_depth: (
+      <>
+        <p>
+          AutoCAD training is crucial for civil engineering professionals
+          because it equips them with the skills to efficiently create accurate
+          and detailed drawings, plans, and designs essential for various civil
+          engineering projects.{" "}
+          <span style={{ fontWeight: 600 }}>
+            CESS 19th Committee successfully completed its AutoCAD training from
+            basic to Municipal Drawing on 15th Poush 2080 commenced from 1st
+            Poush 2080 with a daily 2 hours time period.{" "}
+          </span>
+          <br />
+          Through interactive sessions and one-on-one consultations and guiding,
+          our experienced tutor provided holistic support tailored to our unique
+          goals and aspirations of emerging Civil Engineers. Thank you so much
+          for the co-operation and deep thanks from the bottom of the heart for
+          our respected tutors.
+        </p>
+        <br />
+        <p style={{ fontWeight: 600, color: "blue" }}>Tutors </p>
+        <p style={{ fontWeight: 600, color: "darkblue" }}>
+          1. Ar. Aakretee Chaulagain (Construction Designer){" "}
+        </p>
+        <p style={{ fontWeight: 600, color: "darkblue" }}>
+          2. Ar. Aliza Bhattarai (Building Construction Instructor){" "}
+        </p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 6,
     theme_pic:
       "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
-    headline: "Our Marvel Support Event",
+    headline: "AutoCAD Drafting Competition 2080",
     bit_detail:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing.",
-    in_depth:
-      "The Lord of the Rings is an epic[1] high fantasy novel[a] by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold, The title refers to the story's main antagonist,[b] Sauron, the Dark Lord who in an earlier age created the One Ring to rule the other Rings of Power given to Men, Dwarves, and Elves, in his campaign to conquer all of Middle-earth. From homely beginnings in the Shire, a hobbit land reminiscent of the English countryside, the story ranges across Middle-earth, following the quest to destroy the One Ring, seen mainly through the eyes of the hobbits Frodo, Sam, Merry, and Pippin. Aiding Frodo are the Wizard Gandalf, the Men Aragorn and Boromir, the Elf Legolas, and the Dwarf Gimli, who unite in order to rally the Free Peoples of Middle-earth against Saurons armies and give Frodo a chance to destroy the One Ring in the fire of Mount Doom.",
+      "CESS 19th committee successfully completed AutoCAD drafting competition i.e. Municipal Drawing including plan, section, elevation and detail drawing.....",
+    in_depth: (
+      <>
+        <p>
+          AutoCAD drafting competitions for civil engineering students provides
+          a platform to showcase their skills, creativity, and technical
+          proficiency in using AutoCAD software. These competitions challenge
+          participants to solve real-world civil engineering design problems
+          within a limited time frame, promoting quick decision-making,
+          problem-solving abilities, and attention to detail. <br />
+          <span style={{ fontWeight: 600 }}>
+            CESS 19th committee successfully completed AutoCAD drafting
+            competition i.e. Municipal Drawing including plan, section,
+            elevation and detail drawing of Civil Department, Hydraulics lab,
+            Survey lab, Architecture and Agriculture building of IOE Purwanchal
+            Campus.{" "}
+          </span>
+          Participants of 4 were allowed to make a team to perform the task,
+          every team were provided a tiffin for a time period of surveying. With
+          their outstanding design that impressed our judges and captivated our
+          community, BCE 077 won the title of AutoCAD drafting competition{" "}
+        </p>{" "}
+        <br />
+        <p style={{ fontWeight: 600, color: "blue" }}>Winners </p>
+        <p>1. Riwaj Basnet </p>
+        <p>2. Sabin Dhital</p>
+        <p>3. Abishek Guragain</p>
+        <p>4. Amit Prasad Shah</p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 7,
     theme_pic:
       "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
-    headline: "Our Lord of the Ring Event",
+    headline: "CESS Alumni Unite and Registration",
     bit_detail:
-      "The Lord of the Rings is a trilogy of epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by British author.",
-    in_depth:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing Worldwide since March 2023. Marvel was founded in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in August 1961 with the launch of The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko, and many others. The Marvel brand, which had been used over the years and decades, was solidified as the company's primary brand.",
+      "CESS 19th committee proudly announce the successful completion of digitalization of CESS alumni data registration from 2060 - 2076 in CESS and College ....",
+    in_depth: (
+      <>
+        <p>
+          Alumni Unite and Registration foster networking, mentorship, and
+          collaboration among alumni from diverse backgrounds and industries.
+          These gatherings provide opportunities for career development,
+          knowledge sharing, and continued learning, benefiting both individuals
+          and the broader community. Alumni Unite strengthens bonds within the
+          alumni network, promotes philanthropy and giving back, and contributes
+          to a vibrant and supportive society that values lifelong connections
+          and professional growth.
+          <br />
+          CESS 19th committee proudly announce the successful completion of
+          digitalization of CESS alumni data registration from{" "}
+          <span style={{ color: "blue" }}> 2060 - 2076</span> in CESS and
+          College Website.
+        </p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 8,
     theme_pic:
       "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
-    headline: "Our Marvel Support Event",
+    headline: "Valuation Training in Collaboration with FSU",
     bit_detail:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing.",
-    in_depth:
-      "The Lord of the Rings is an epic[1] high fantasy novel[a] by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold, The title refers to the story's main antagonist,[b] Sauron, the Dark Lord who in an earlier age created the One Ring to rule the other Rings of Power given to Men, Dwarves, and Elves, in his campaign to conquer all of Middle-earth. From homely beginnings in the Shire, a hobbit land reminiscent of the English countryside, the story ranges across Middle-earth, following the quest to destroy the One Ring, seen mainly through the eyes of the hobbits Frodo, Sam, Merry, and Pippin. Aiding Frodo are the Wizard Gandalf, the Men Aragorn and Boromir, the Elf Legolas, and the Dwarf Gimli, who unite in order to rally the Free Peoples of Middle-earth against Saurons armies and give Frodo a chance to destroy the One Ring in the fire of Mount Doom.",
+      "CESS 19th committee proudly announce the successful completion of 2 days valuation training program held on 22nd - 23rd Mangsir in 2080 in collaboration of FSU....",
+    in_depth: (
+      <>
+        <p>
+          Valuation programs for civil engineers are designed to equip
+          professionals with the skills and knowledge needed to accurately
+          determine the financial worth of construction projects, infrastructure
+          developments, or real estate properties. These programs cover various
+          methodologies and techniques used in valuation, including cost
+          approach, income approach, and sales comparison approach. Ultimately,
+          valuation programs empower civil engineers to make informed decisions
+          regarding investment, development, and management of assets in the
+          built environment.
+          <br />
+          CESS 19th committee proudly announce the successful completion of 2
+          days valuation training program held on 22nd - 23rd Mangsir in 2080 in
+          collaboration of Free Student Society(FSU). Through interactive
+          sessions and one-on-one consultations and guiding, our experienced
+          tutor provided holistic support tailored to our unique goals and
+          aspirations of emerging Civil Engineers. Thank you so much for the
+          co-operation and deep thanks from the bottom of the heart for our
+          respected tutor{" "}
+        </p>{" "}
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>Tutor </p>
+        <p style={{ fontWeight: 600 }}>Er. Bibek Shrestha </p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 9,
     theme_pic:
       "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
-    headline: "Our Lord of the Ring Event",
+    headline: "Popsicle Stick Building Shake Table Competition",
     bit_detail:
-      "The Lord of the Rings is a trilogy of epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by British author.",
-    in_depth:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing Worldwide since March 2023. Marvel was founded in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in August 1961 with the launch of The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko, and many others. The Marvel brand, which had been used over the years and decades, was solidified as the company's primary brand.",
+      "CESS 19th committee proudly announce the successful completion of 3 days national event Popsicle stick building shake table competition held on 5th, 6th  and 7th Magh, 2080 in collaboration of DELTA 4.O....",
+    in_depth: (
+      <>
+        <p>
+          A popsicle stick building shake table competition challenges
+          participants to design and construct a miniature building model using
+          popsicle sticks, plywood, and glue gun. In this exciting event,
+          participants will showcase their creativity, engineering skills, and
+          understanding of seismic principles by designing and constructing a
+          building model using Popsicle sticks and other provided materials. The
+          goal is to build a stable building of a popsicles that is capable of
+          resisting simulating seismic activity by shaking and vibrating. <br />
+          CESS 19th committee proudly announce the successful completion of 3
+          days{" "}
+          <span style={{ color: "blue", fontWeight: 600 }}>
+            National Event Popsicle Stick Building Shake Table Competition{" "}
+          </span>
+          held on 5th, 6th and 7th Magh, 2080 in collaboration of DELTA 4.O. We
+          had various categories to judge the winner as the points were divided
+          for maximum load stood on vibration Strength test, design,
+          architectural view, neat and cleanliness, explanation etc. <br />
+          With keen eyes for detail and a passion for innovation, the
+          competition was judged based on criteria such as stability,
+          functionality, and accuracy of seismic simulation and we come up with
+          the horizontal shake table for the first time in ERC. The judges for
+          the Popsicle Stick Building Shake Table Competition are experts in
+          engineering and design. And we have the judge as{" "}
+        </p>
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>Judges</p>
+        <p style={{ fontWeight: 500 }}>Er. Bhisan Bhujel</p>
+        <p style={{ fontWeight: 500 }}>Er. Mohan Karki</p>
+        <p style={{ fontWeight: 500 }}>Ar. Dipendra Subba </p>
+        <br />
+
+        <p>
+          Participants of 4 were allowed to make a team to perform the task and
+          with their outstanding performance that impressed our judges and
+          captivated our community, Team Kathford won the title and Team
+          Abhyudaya (ERC) won the Runner up title.{" "}
+        </p>
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>Winner (Team Kathford)</p>
+        <p style={{ fontWeight: 500 }}>i. Krishna Subedi</p>
+        <p style={{ fontWeight: 500 }}>ii. Sangam Pradhan</p>
+        <p style={{ fontWeight: 500 }}>iii. Anish Paudel</p>
+        <p style={{ fontWeight: 500 }}>iv. Prabesh Baniya</p>
+        <br />
+
+        <p style={{ color: "blue", fontWeight: 600 }}>
+          Runner up (Team Abhyudaya) (ERC){" "}
+        </p>
+        <p style={{ fontWeight: 500 }}>i. Anish Shahi </p>
+        <p style={{ fontWeight: 500 }}>ii. Vishan Acharya </p>
+        <p style={{ fontWeight: 500 }}>iii. Abhiyan Niraula </p>
+        <p style={{ fontWeight: 500 }}>iv. Avishek Acharya </p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 10,
     theme_pic:
       "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
-    headline: "Our Marvel Support Event",
+    headline: "Hydropower Model on Delta 4.O, 2080",
     bit_detail:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing.",
-    in_depth:
-      "The Lord of the Rings is an epic[1] high fantasy novel[a] by the English author and scholar J. R. R. Tolkien. Set in Middle-earth, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold, The title refers to the story's main antagonist,[b] Sauron, the Dark Lord who in an earlier age created the One Ring to rule the other Rings of Power given to Men, Dwarves, and Elves, in his campaign to conquer all of Middle-earth. From homely beginnings in the Shire, a hobbit land reminiscent of the English countryside, the story ranges across Middle-earth, following the quest to destroy the One Ring, seen mainly through the eyes of the hobbits Frodo, Sam, Merry, and Pippin. Aiding Frodo are the Wizard Gandalf, the Men Aragorn and Boromir, the Elf Legolas, and the Dwarf Gimli, who unite in order to rally the Free Peoples of Middle-earth against Saurons armies and give Frodo a chance to destroy the One Ring in the fire of Mount Doom.",
+      'CESS 19th committee in collaboration with Project Team Hydro proudly announce the successful completion of "Hydropower Plant Model" including the component of hydropower plant on national event Delta..',
+    in_depth: (
+      <>
+        <p>
+          A hydropower model demonstrates the process of generating electricity
+          from water flow, typically using a small-scale representation of a
+          hydroelectric power plant. By observing and interacting with the
+          Hydropower Model, students and enthusiasts can learn about the
+          renewable energy potential of hydropower, the components of a
+          hydroelectric power plant, and the environmental and social
+          considerations associated with hydropower development. <br />
+          <br />
+          CESS 19th committee in collaboration with Project Team Hydro proudly
+          announce the successful completion of "Hydropower Plant Model"
+          including the component of hydropower plant on{" "}
+          <span style={{ color: "blue", fontWeight: 600 }}>
+            {" "}
+            National Event Delta 4.O held on 5th, 6th and 7th Magh, 2080.
+          </span>{" "}
+          It serves as a valuable tool for STEM education, environmental
+          awareness, and sustainable energy exploration. In addition, the beauty
+          of experience for the final year project on Prefeasibility Study of
+          Peaking Runoff River Hydropower Plant in Deumai River really helped to
+          make the project model grand successful and here we have the project
+          member along with team hydro member as
+        </p>
+        <br />
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>
+          Team Hydro (PUR 076 Batch){" "}
+        </p>
+        <p>1. Neerajan Basnet (CESS President) </p>
+        <p>2. Newraj Kumar Basnet</p>
+        <p>3. Nagendra Dahal</p>
+        <p>4. Jagdish Bist</p>
+        <p>5. Madhev Parsad Banjara</p>
+        <p>6. Arvind Kumar Yadav</p>
+      </>
+    ),
     images: [],
   },
   {
     sn: 11,
     theme_pic:
       "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
-    headline: "Our Lord of the Ring Event",
+    headline: "Popsicle Stick Building Shake Table Competition",
     bit_detail:
-      "The Lord of the Rings is a trilogy of epic fantasy adventure films directed by Peter Jackson, based on the novel The Lord of the Rings by British author.",
-    in_depth:
-      "Marvel Comics is an American comic book publisher and the property of The Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing Worldwide since March 2023. Marvel was founded in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in August 1961 with the launch of The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko, and many others. The Marvel brand, which had been used over the years and decades, was solidified as the company's primary brand.",
+      'CESS 19th committee successfully launched its technical magazine "Civil Engineering Voice Vol. IV" for the fourth time after the long duration of 6 years on 17th Falgun, 2080. Thank you so much for.... ',
+    in_depth: (
+      <>
+        <p>
+          With a focus on technical expertise and advancements, this magazine
+          serves as a premier platform for industry professionals, researchers,
+          and enthusiasts to stay abreast of the latest developments and trends
+          shaping the discipline. Moreover, the Civil Engineering Voice
+          Technical Magazine strives to foster innovation and collaboration
+          within the civil engineering community by highlighting groundbreaking
+          research, innovative projects, and emerging technologies. <br />
+          <br />
+          <span style={{ fontWeight: 500 }}>
+            CESS 19th committee successfully launched its technical magazine{" "}
+          </span>
+          <span style={{ color: "blue", fontWeight: 600 }}>
+            "Civil Engineering Voice Vol. IV"{" "}
+          </span>
+          <span style={{ fontWeight: 500 }}>
+            for the fourth time after the long duration of 6 years on 17th
+            Falgun, 2080.
+          </span>{" "}
+          Thank you so much for the co-operation and deep thanks from the bottom
+          of the heart for all the CEV team member for their collaboration with
+          CESS 19th committee and all the helping hands, sponsors and all
+          professions, seniors, students who supported us with their article for
+          the successful publication of the technical Magazine. 500 pieces of
+          hardcopy were printed which were distributed among the student with
+          free of cost and for different organizations form different districts,
+          sponsors and helping hands. And soft copy of it is available on
+          National library, CESS Page, CESS Website. This magazine from its
+          beginning is a great source of information and relentless motivation
+          for aspiring students trying to pursue their dream in this field.{" "}
+        </p>{" "}
+        <br /> <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>CEV Team </p>
+        <p>1. Neerajan Basnet (Coordinator) </p>
+        <p>2. Supreme Thapa (Vice Coordinator) </p>
+        <p>3. Newraj Kumar Basnet (Accounting) </p> <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>4. Article Collection</p>
+        <p>Nagendra Dahal </p>
+        <p>Umesh Kumar Gautam </p>
+        <p>Kamala G.C</p>
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>5. Designer</p>
+        <p>Mandip Adhikari </p>
+        <p>Riwaj Basnet</p>
+        <p>Dekendra Baduwal Sijapati</p>
+        <br />
+        <p style={{ color: "blue", fontWeight: 600 }}>
+          6. Advertisement Collection{" "}
+        </p>
+        <p>Jagdish Bist</p>
+        <p>Manisha Raya</p>
+        <p>Prajwal Kafle</p>
+        <p>Avinash Rai</p>
+      </>
+    ),
     images: [],
   },
 ];

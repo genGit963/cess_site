@@ -7,24 +7,22 @@ const About = () => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   const about_style = {
-    width: matches ? "55%" : "auto",
-    padding: "2%",
-    margin: "2% auto",
+    width:"95%",
+    margin: "auto",
+    textAlign: "center",
   };
 
   const cess_logo_st = {
-    position: "relative",
-    right: matches ? "-40%" : "-14%",
-    margin: "2% auto",
+    margin: matches ? "auto" : "auto",
   };
 
   return (
-    <Box sx={{ alignContent: "center", alignItems: "center" }}>
+    <Box sx={{ alignContent: "center", alignItems: "center", margin: "auto" }}>
       <Typography
         variant="h4"
         textAlign={"center"}
         style={{
-          margin: "2% 2% 1% 0",
+          margin: "auto",
           color: colors.blue[900],
           fontWeight: 500,
         }}
@@ -32,20 +30,40 @@ const About = () => {
         About
       </Typography>
       <Divider />
-      <CESS_LOGO height={"260px"} width={"260px"} style={cess_logo_st} />
-      <Typography textAlign={"justify"} sx={about_style}>
-        Enim excepteur voluptate elit ipsum culpa dolor ex Lorem. Lorem labore
-        deserunt velit fugiat non eu ut consequat occaecat commodo ex elit.
-        Pariatur enim officia voluptate est nisi. Voluptate ea ex dolor labore
-        occaecat sunt ea aliqua eu. Id culpa cupidatat Lorem non deserunt
-        laborum.
-        <br />
-        <br /> Aliquip officia Lorem do laborum minim aute aliquip fugiat
-        reprehenderit tempor. Lorem tempor duis eiusmod est aliquip. Laborum
-        veniam quis deserunt velit est consequat. Nulla adipisicing cupidatat
-        laboris Lorem pariatur elit veniam amet dolore ipsum cillum exercitation
-        excepteur cupidatat.
-      </Typography>
+      <div
+        style={{
+          padding: "30px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        <CESS_LOGO height={"350px"} width={"350px"} style={cess_logo_st} />
+        <p style={about_style}>
+          Aliqua pariatur minim culpa elit nulla id ex minim. Laboris duis est
+          laborum nostrud adipisicing dolor culpa nisi ex. Ullamco minim
+          deserunt duis reprehenderit commodo commodo nulla do exercitation
+          proident commodo irure cupidatat. Dolore culpa velit labore excepteur
+          pariatur occaecat consequat non eu labore nostrud. Laborum sint tempor
+          ut aliqua magna aliquip fugiat. Officia aliqua ad exercitation
+          incididunt consectetur commodo sit eiusmod dolore ullamco commodo ad
+          deserunt esse. Qui eu occaecat reprehenderit amet id anim duis culpa
+          sunt. Ea reprehenderit sit reprehenderit aliqua fugiat aliqua <br />
+          <br />
+          adipisicing. Ea do dolore eu sint tempor labore veniam magna
+          consectetur reprehenderit sunt ipsum dolore magna. Lorem velit
+          reprehenderit ea aute aliquip reprehenderit. Adipisicing non
+          consectetur eiusmod occaecat esse est. Ex elit anim anim excepteur
+          proident fugiat tempor commodo fugiat in velit proident. Excepteur
+          <br />
+          <br />
+          ullamco do aute officia excepteur eiusmod quis sunt occaecat. Occaecat
+          nulla excepteur magna laboris aliqua labore do deserunt velit ad
+          aliquip. Non nostrud quis enim ad dolor duis incididunt pariatur nisi
+          tempor. Fugiat anim labore dolor dolor Lorem officia voluptate et
+          velit ut esse.
+        </p>
+      </div>
     </Box>
   );
 };

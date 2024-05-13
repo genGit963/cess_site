@@ -40,7 +40,10 @@ function AwardsTemplate({ awards_position, events_detail }) {
       <EmojiEventsRoundedIcon color="primary" />
       <Typography fontSize={16} fontWeight={400}>
         {awards_position}
-        <span style={{fontWeight:600, color:colors.blue[900]}}> : {events_detail}</span>
+        <span style={{ fontWeight: 600, color: colors.blue[900] }}>
+          {" "}
+          : {events_detail}
+        </span>
       </Typography>
     </div>
   );
@@ -51,8 +54,8 @@ function ReviewCard({ name, pic, post, review }) {
     <Paper
       elevation={0}
       sx={{
-        height: "auto",
-        width: "auto",
+        height: 350,
+        width: 450,
         padding: 4,
         display: "flex",
         flexDirection: "column",
@@ -196,14 +199,38 @@ function Home() {
             >
               CESS is decorated by :
             </Typography>
-            <AwardsTemplate awards_position="Magazine " events_detail="Civil Engineering Voice Vol.IV " />
-            <AwardsTemplate awards_position="Runner up " events_detail="Popsicle Building Shake Table DELTA 4.0 (National Events)" />
-            <AwardsTemplate awards_position={"Participation "} events_detail={"Hydropower model DELTA 4.0 (National Events)"} />
-            <AwardsTemplate awards_position="Runner UP" events_detail="FSU Cup 2080" />
-            <AwardsTemplate awards_position="2 Winners " events_detail="ERC 5km Marathon (Both Boy and Girl)" />
-            <AwardsTemplate awards_position="Runner Up " events_detail="ERC 5km Marathon (Boy)" />
-            <AwardsTemplate awards_position={"Winner "} events_detail={"NTBNS 200x4 Relay Race (Boy and Girl)"} />
-            <AwardsTemplate awards_position={"Winner "} events_detail={"AutoCAD Drafting Competition"} />
+            <AwardsTemplate
+              awards_position="Magazine "
+              events_detail="Civil Engineering Voice Vol.IV "
+            />
+            <AwardsTemplate
+              awards_position="Runner up "
+              events_detail="Popsicle Building Shake Table DELTA 4.0 (National Events)"
+            />
+            <AwardsTemplate
+              awards_position={"Participation "}
+              events_detail={"Hydropower model DELTA 4.0 (National Events)"}
+            />
+            <AwardsTemplate
+              awards_position="Runner UP"
+              events_detail="FSU Cup 2080"
+            />
+            <AwardsTemplate
+              awards_position="2 Winners "
+              events_detail="ERC 5km Marathon (Both Boy and Girl)"
+            />
+            <AwardsTemplate
+              awards_position="Runner Up "
+              events_detail="ERC 5km Marathon (Boy)"
+            />
+            <AwardsTemplate
+              awards_position={"Winner "}
+              events_detail={"NTBNS 200x4 Relay Race (Boy and Girl)"}
+            />
+            <AwardsTemplate
+              awards_position={"Winner "}
+              events_detail={"AutoCAD Drafting Competition"}
+            />
           </Item>
         </Grid>
 

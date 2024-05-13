@@ -36,8 +36,8 @@ function Navbar() {
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <CESS_LOGO
-            height={40}
-            width={40}
+            height={50}
+            width={50}
             sx={{ display: { xs: "none", md: "flex" } }}
           />
           <Typography
