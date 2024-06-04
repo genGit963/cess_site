@@ -1,4 +1,4 @@
-import { Box, Button, TextField, Typography, colors } from "@mui/material";
+import { Box, Button, Divider, TextField, Typography, colors } from "@mui/material";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -43,7 +43,7 @@ const Contact = () => {
       <Typography
         variant="h4"
         sx={{
-          margin: "1% 2% 2% 0",
+          margin: "1% 2% 0% 0",
           color: colors.blue[900],
           fontWeight: 500,
           textAlign: "center",
@@ -51,7 +51,7 @@ const Contact = () => {
       >
         Contact
       </Typography>
-      <div style={{ border: "0.5px solid", borderColor: "rgb(0,0,0,0.3)" }} />
+      <Divider />
       <h2 style={{ margin: "1% 2% 2% 0" }}>We are just a mail away.</h2>
       <form onSubmit={handleSubmit}>
         <TextField
@@ -67,7 +67,6 @@ const Contact = () => {
           label="Email"
           type="outlined"
           required
-
           sx={{ fontFamily: "Poppins", margin: "1% 4% 2% 0", width: "70%" }}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -80,7 +79,6 @@ const Contact = () => {
           fullWidth
           multiline
           sx={{
-            //   width: "60%",
             margin: "1% 2% 2% 0",
             fontFamily: "Poppins",
           }}
