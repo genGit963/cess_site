@@ -1,8 +1,9 @@
 {
   "name": "cess_site",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.15",
