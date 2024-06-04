@@ -89,8 +89,10 @@ function Footer() {
             sx={{
               flexGrow: 1,
               alignItems: "center",
-              //   border: "1px solid",
               marginTop: "5%",
+              display: "flex",
+              flexDirection: "row",
+              gap: 5,
               justifyContent: "center",
               fontFamily: "Poppins",
             }}
@@ -99,9 +101,27 @@ function Footer() {
               href="https://www.facebook.com/cess.purwanchal"
               target="_blank"
               rel="noreferrer"
-              style={{ textAlign: "center", alignItems: "center" }}
+              style={{
+                textAlign: "center",
+                alignItems: "center",
+                textDecoration: "none",
+                cursor: "pointer",
+              }}
             >
               Facebook
+            </a>
+            <a
+              href="https://www.linkedin.com/in/cess-purwanchal-805bb5311/"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                textAlign: "center",
+                alignItems: "center",
+                textDecoration: "none",
+                cursor: "pointer",
+              }}
+            >
+              LinkedIn
             </a>
           </Item>
         </Grid>
