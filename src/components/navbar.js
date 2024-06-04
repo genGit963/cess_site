@@ -36,15 +36,14 @@ function Navbar() {
         color: "black",
         position: "sticky",
         top: 0,
-        zIndex: 5,
+        zIndex: 10,
       }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <CESS_LOGO
-            height={50}
-            width={50}
+            height={65}
+            width={65}
             cursor={"pointer"}
             sx={{ display: { xs: "none", md: "flex" } }}
             onClick={() => navigate("/")}
@@ -70,9 +69,9 @@ function Navbar() {
             CESS-ERC
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
             <IconButton
-              size="small"
+              size="medium"
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
@@ -116,24 +115,22 @@ function Navbar() {
             </Menu>
           </Box>
 
-          {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
+            onClick={() => navigate("/")}
+            textAlign={"center"}
+            alignItems={"center"}
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },
               flexGrow: 1,
-              //   fontFamily: "Poppins",
-              fontWeight: 500,
+              fontWeight: 600,
               letterSpacing: "0.05rem",
               color: "black",
               textDecoration: "none",
             }}
           >
-            CESS
+            CESS-ERC
           </Typography>
 
           <Box
@@ -154,11 +151,10 @@ function Navbar() {
                   textDecoration: "none",
                   margin: "auto 3% auto 1%",
                   fontWeight: 400,
-                  //   backgroundColor: "red",
                 }}
                 fontFamily={"Poppins"}
               >
-              {page}
+                {page}
               </Link>
             ))}
           </Box>

@@ -8,7 +8,7 @@ const MagazineMemberCard = ({ name, img, asA }) => {
       sx={{
         display: "flex",
         flexDirection: "column",
-        // border: "1px solid",
+        border: "1px solid rgb(0,0,0,0.15)",
         width: 300,
         alignItems: "center",
         justifyContent: "center",
@@ -156,46 +156,6 @@ const Magazine = () => {
         </p>
       </div>
 
-      {/* Magazine COVER IMAGES */}
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          margin: "5% auto",
-          // border: "2px solid",
-        }}
-      >
-        <div style={{ width: "53%" }}>
-          <img
-            style={{
-              height: "100%",
-              width: "100%",
-              objectFit: "cover",
-              borderRadius: 8,
-            }}
-            loading="lazy"
-            src={require("../assets/magazine/Mag_front.jpg")}
-            alt="font_mag"
-          />
-        </div>
-
-        <div style={{ width: "47%" }}>
-          <img
-            style={{
-              height: "100%",
-              width: "100%",
-              objectFit: "cover",
-              borderRadius: 8,
-
-            }}
-            loading="lazy"
-            src={require("../assets/magazine/Mag_back.jpg")}
-            alt="back_mag"
-          />
-        </div>
-      </div>
-
       <div>
         <Typography textAlign={"center"} variant="h5" color={"rgb(0,0,0,0.70)"}>
           Magazine Team Members
@@ -240,6 +200,61 @@ const Magazine = () => {
           }}
         />
         <EventImages img_list={participant} />
+      </div>
+
+      {/* Magazine COVER IMAGES */}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+          margin: "10% auto",
+          // overflow:"hidden",
+          height: "90%",
+          // border: "2px solid",
+        }}
+      >
+        <div
+          style={{
+            zIndex: 1,
+            width: "50%",
+            transform: "perspective(2500px) scaleZ(1) rotateY(-25deg)",
+          }}
+        >
+          <img
+            style={{
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+              borderRadius: 8,
+              boxShadow: "0px 0px 15px gray",
+            }}
+            loading="lazy"
+            src={require("../assets/magazine/Mag_front.jpg")}
+            alt="font_mag"
+          />
+        </div>
+
+        <div
+          style={{
+            // zIndex:1,
+            width: "50%",
+            transform: "perspective(2500px) scaleZ(1) rotateY(25deg)",
+          }}
+        >
+          <img
+            style={{
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+              borderRadius: 8,
+              boxShadow: "0px 0px 10px gray",
+            }}
+            loading="lazy"
+            src={require("../assets/magazine/Mag_back.jpg")}
+            alt="back_mag"
+          />
+        </div>
       </div>
     </Box>
   );

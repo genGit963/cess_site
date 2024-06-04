@@ -587,7 +587,7 @@ export const events_data = [
   {
     sn: 12,
     theme_pic: require("../assets/magazine/Mag_front.jpg"),
-    headline: "Civil Engineering Voice Vol.IV, 2080",
+    headline: "Eventually, Civil Engineering Voice Vol.IV, 2080",
     bit_detail:
       'CESS 19th committee successfully launched its technical magazine "Civil Engineering Voice Vol. IV" for the fourth time after the long duration of 6 years on 17th Falgun, 2080. Thank you so much for the...',
     in_depth: (

@@ -54,14 +54,15 @@ function ReviewCard({ name, pic, post, review }) {
     <Paper
       elevation={0}
       sx={{
-        height: 350,
-        width: 450,
-        padding: 4,
+        padding: 3,
         display: "flex",
         flexDirection: "column",
         gap: 4,
-        justifyContent: "flex-start",
-        border: `1px solid ${colors.blue[100]}`,
+        border: `1px solid ${colors.blue[200]}`,
+        minWidth: "380px",
+        maxWidth: "auto",
+        backgroundColor: `${colors.blue[50]}`,
+        boxShadow: "0px 0px 10px rgb(0,0,0,0.20)",
       }}
     >
       <div
@@ -75,22 +76,22 @@ function ReviewCard({ name, pic, post, review }) {
         <img
           src={pic}
           alt="img"
-          height={70}
-          width={70}
-          style={{ borderRadius: 35, objectFit: "cover" }}
+          height={100}
+          width={100}
+          style={{ borderRadius: "50%", objectFit: "cover" }}
           loading="lazy"
         />
         <div style={{ margin: "4%", padding: 2 }}>
-          <Typography fontWeight={500} fontSize={16} color={colors.blue[900]}>
+          <Typography fontWeight={600} fontSize={18} color={colors.blue[900]}>
             {name}
           </Typography>
-          <Typography fontWeight={400} fontSize={14}>
+          <Typography fontWeight={500} fontSize={14} color={"GrayText"}>
             {post}
           </Typography>
         </div>
       </div>
 
-      <Typography fontSize={14} width={300}>
+      <Typography fontSize={14} width={"100%"} color={"rgb(0,0,0,0.6)"}>
         {review}
       </Typography>
     </Paper>
@@ -199,7 +200,7 @@ function Home() {
               fontWeight={600}
               sx={{ margin: "5% auto" }}
             >
-              CESS is decorated by :
+              CESS is decorated by
             </Typography>
             <AwardsTemplate
               awards_position="Magazine "
@@ -241,18 +242,18 @@ function Home() {
             <AWARDS_PIC height={"100%"} width={"100%"} />
           </Item>
         </Grid>
+
         {/* --------------------------- Reviews ------------------------ */}
         {/* <Grid container ></Grid> */}
         <Grid xs={12} md={12}>
           <Typography variant="h4" fontWeight={600} sx={{ margin: "4% auto" }}>
-            CESS-ian's Voice:
+            People Prespectives
           </Typography>
           <div
             style={{
               display: "flex",
               flexDirection: "row",
-              gap: "2%",
-              padding: "10px auto",
+              gap: 20,
               overflowX: "auto",
             }}
           >
