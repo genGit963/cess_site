@@ -72,7 +72,7 @@ export const committee18th = [
     post: "Member",
     batch: "077BCE",
     profile_links: {
-      facebook: "https://www.facebook.com/uhm.sh.9",
+      facebook: "https://www.facebook.com/gautam.umesh.18",
       instagram: "https://www.instagram.com/umes.hgautam/",
     },
   },
