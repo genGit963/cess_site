@@ -25,7 +25,7 @@ function Footer() {
       padding={"1%"}
       sx={{
         flexGrow: 1,
-        margin: "4% auto 2% auto",
+        margin: "10% auto 5% auto",
         // border: "1px solid",
         background: colors.blue[50],
         borderRadius: 2,
@@ -106,11 +106,18 @@ function Footer() {
           <a
             target="_blanck"
             href="https://www.linkedin.com/in/mahesh-bogati-540066262/"
-            style={{ textDecoration: "none", color: colors.blue[900] }}
-            className="mahesh"
+            style={{textDecoration: "none", color: colors.blue[900] }}
           >
             {" "}
             Mahesh Bogati / 076BEI
+          </a>
+          <br/>
+          <a
+            target="_blanck"
+            href="https://bogatimahesh.com.np"
+            style={{ textDecoration: "underline", color: colors.blue[600] }}
+          >
+            https://bogatimahesh.com.np
           </a>
         </Item>
       </Grid>

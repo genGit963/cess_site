@@ -29,13 +29,54 @@ import rr4 from "../assets/CESS/Relay_Race/4.jpg";
 import rr6 from "../assets/CESS/Relay_Race/6.jpg";
 
 // FSU 2080 sn: 4
+import fsu1 from "../assets/CESS/FSUCUP/11. cover.jpeg";
+import fsu2 from "../assets/CESS/FSUCUP/10 Large.jpeg";
+import fsu3 from "../assets/CESS/FSUCUP/12 Large.jpeg";
+import fsu4 from "../assets/CESS/FSUCUP/3 Large.jpeg";
+import fsu5 from "../assets/CESS/FSUCUP/5 Large.jpeg";
+import fsu6 from "../assets/CESS/FSUCUP/6 Large.jpeg";
+import fsu7 from "../assets/CESS/FSUCUP/7 Large.jpeg";
+import fsu8 from "../assets/CESS/FSUCUP/8 Large.jpeg";
+import fsu9 from "../assets/CESS/FSUCUP/9 Large.jpeg";
+import fsu10 from "../assets/CESS/FSUCUP/F.1 Large.jpeg";
+import fsu11 from "../assets/CESS/FSUCUP/F.2 Large.jpeg";
+import fsu12 from "../assets/CESS/FSUCUP/F.4 Large.jpeg";
+
 // AutoCAD Training: sn : 5
+import act1 from "../assets/CESS/AutocadTraining/1.jpg";
+import act2 from "../assets/CESS/AutocadTraining/2.jpg";
+import act3 from "../assets/CESS/AutocadTraining/3.jpg";
+import act4 from "../assets/CESS/AutocadTraining/4.jpg";
+import act5 from "../assets/CESS/AutocadTraining/5.jpg";
+import act6 from "../assets/CESS/AutocadTraining/6. cover.jpg";
+
 // AutoCAD Drafting Competition sn: 6
+import adc from "../assets/CESS/AutoCADDrafting/1.jpg"
+
 // CESS Alumni Unite and Registration sn:7
+import aur1 from "../assets/CESS/CivilAlumniDataRegistration/Cover.jpg";
+
 // Valuation Training in Collaboration with FSU sn:8
+import vt1 from "../assets/CESS/Valuation Program/valuation1.jpg";
+import vt2 from "../assets/CESS/Valuation Program/Valuation2.jpg";
+import vt3 from "../assets/CESS/Valuation Program/Valuation3.jpg";
+
 // Popsicle Stick Building Shake Table Competition sn:9
+import psds1 from "../assets/CESS/Popsicle Building Competition/Model Large.jpeg";
+import psds2 from "../assets/CESS/Popsicle Building Competition/Runner up Large.jpeg";
+import psds3 from "../assets/CESS/Popsicle Building Competition/Runner up(1) Large.jpeg";
+import psds4 from "../assets/CESS/Popsicle Building Competition/Runnerup Large.jpeg";
+import psds5 from "../assets/CESS/Popsicle Building Competition/Winner Large.jpeg";
+import psds6 from "../assets/CESS/Popsicle Building Competition/working phase Large.jpeg";
+
 // Hydropower Model on Delta 4.O, 2080 sn:10
-// Popsicle Stick Building Shake Table Competition sn:11
+import hmd1 from "../assets/CESS/HydropowerModel/1. H.jpg";
+import hmd2 from "../assets/CESS/HydropowerModel/2. H.jpg";
+import hmd3 from "../assets/CESS/HydropowerModel/3.H.jpg";
+import hmd4 from "../assets/CESS/HydropowerModel/4.H.jpg";
+import hmd5 from "../assets/CESS/HydropowerModel/5.H.jpg";
+import hmd6 from "../assets/CESS/HydropowerModel/6.H cover.jpg";
+
 
 export const events_data = [
   {
@@ -78,7 +119,7 @@ export const events_data = [
     theme_pic: iac6,
     headline: "1st Interaction and Career Counselling Program",
     bit_detail:
-      "CESS 19th Committee successfully completed its 1st event Interaction and Career Counselling Program on 15th Asar 2080. Through interactive....",
+      "CESS 19th Committee successfully completed its 1st event Interaction and Career Counselling Program on 15th Asar 2080. Through interactive sessions and one-on-one consultat....",
     in_depth: (
       <>
         <p>
@@ -132,7 +173,7 @@ export const events_data = [
     theme_pic: pc6,
     headline: "Beauty of Civil Engineering Photography Competition",
     bit_detail:
-      "Photography Competition have altogether 54 Contestant from various faculty of ERC and from various school and colleges....",
+      "Photography Competition have altogether 54 Contestant from various faculty of ERC and from various school and colleges. It was open competition for all the students....",
     in_depth: (
       <>
         <p>
@@ -219,11 +260,10 @@ export const events_data = [
   },
   {
     sn: 4,
-    theme_pic:
-      "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
-    headline: "Free Student Union Cup -2080",
+    theme_pic: fsu1,
+    headline: "FSU CUP-2080",
     bit_detail:
-      "FSU CUP – 2080 commenced with ERC Run-5Km on 14th Poush 2080, including various physical and mental sports which celebrate its....",
+      "FSU CUP-2080 commenced with ERC Run-5Km on 14th Poush 2080, including various physical and mental sports which celebrate its....",
     in_depth: (
       <>
         <p>
@@ -280,12 +320,24 @@ export const events_data = [
         </p>
       </>
     ),
-    images: [],
+    images: [
+      fsu1,
+      fsu2,
+      fsu3,
+      fsu4,
+      fsu5,
+      fsu6,
+      fsu7,
+      fsu8,
+      fsu9,
+      fsu10,
+      fsu11,
+      fsu12,
+    ],
   },
   {
     sn: 5,
-    theme_pic:
-      "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
+    theme_pic: act3,
     headline: "AutoCAD Training 2080",
     bit_detail:
       "CESS 19th Committee successfully completed its AutoCAD training from basic to Municipal Drawing on 15th Poush 2080 commenced.....",
@@ -318,12 +370,11 @@ export const events_data = [
         </p>
       </>
     ),
-    images: [],
+    images: [act1, act2, act6, act5, act4, act3],
   },
   {
     sn: 6,
-    theme_pic:
-      "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
+    theme_pic:adc,
     headline: "AutoCAD Drafting Competition 2080",
     bit_detail:
       "CESS 19th committee successfully completed AutoCAD drafting competition i.e. Municipal Drawing including plan, section, elevation and detail drawing.....",
@@ -356,12 +407,11 @@ export const events_data = [
         <p>4. Amit Prasad Shah</p>
       </>
     ),
-    images: [],
+    images: [adc],
   },
   {
     sn: 7,
-    theme_pic:
-      "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
+    theme_pic: aur1,
     headline: "CESS Alumni Unite and Registration",
     bit_detail:
       "CESS 19th committee proudly announce the successful completion of digitalization of CESS alumni data registration from 2060 - 2076 in CESS and College ....",
@@ -384,12 +434,11 @@ export const events_data = [
         </p>
       </>
     ),
-    images: [],
+    images: [aur1],
   },
   {
     sn: 8,
-    theme_pic:
-      "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
+    theme_pic: vt3,
     headline: "Valuation Training in Collaboration with FSU",
     bit_detail:
       "CESS 19th committee proudly announce the successful completion of 2 days valuation training program held on 22nd - 23rd Mangsir in 2080 in collaboration of FSU....",
@@ -420,12 +469,11 @@ export const events_data = [
         <p style={{ fontWeight: 600 }}>Er. Bibek Shrestha </p>
       </>
     ),
-    images: [],
+    images: [vt1, vt2, vt3],
   },
   {
     sn: 9,
-    theme_pic:
-      "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
+    theme_pic: psds1,
     headline: "Popsicle Stick Building Shake Table Competition",
     bit_detail:
       "CESS 19th committee proudly announce the successful completion of 3 days national event Popsicle stick building shake table competition held on 5th, 6th  and 7th Magh, 2080 in collaboration of DELTA 4.O....",
@@ -486,12 +534,11 @@ export const events_data = [
         <p style={{ fontWeight: 500 }}>iv. Avishek Acharya </p>
       </>
     ),
-    images: [],
+    images: [psds1, psds2, psds3, psds4, psds5, psds6],
   },
   {
     sn: 10,
-    theme_pic:
-      "https://images.immediate.co.uk/production/volatile/sites/3/2018/04/https-2F2Fblogs-images.forbes.com2Fscottmendelson2Ffiles2F20182F042Fimage001-cebe539.jpg?quality=90&crop=75px,0px,811px,540px&resize=960,640",
+    theme_pic: hmd4,
     headline: "Hydropower Model on Delta 4.O, 2080",
     bit_detail:
       'CESS 19th committee in collaboration with Project Team Hydro proudly announce the successful completion of "Hydropower Plant Model" including the component of hydropower plant on national event Delta..',
@@ -533,72 +580,6 @@ export const events_data = [
         <p>6. Arvind Kumar Yadav</p>
       </>
     ),
-    images: [],
-  },
-  {
-    sn: 11,
-    theme_pic:
-      "https://daboydblog.weebly.com/uploads/9/0/7/5/90758761/lord-of-the-rings-gollum-with-ring-wallpaper-3_orig.jpg",
-    headline: "Popsicle Stick Building Shake Table Competition",
-    bit_detail:
-      'CESS 19th committee successfully launched its technical magazine "Civil Engineering Voice Vol. IV" for the fourth time after the long duration of 6 years on 17th Falgun, 2080. Thank you so much for.... ',
-    in_depth: (
-      <>
-        <p>
-          With a focus on technical expertise and advancements, this magazine
-          serves as a premier platform for industry professionals, researchers,
-          and enthusiasts to stay abreast of the latest developments and trends
-          shaping the discipline. Moreover, the Civil Engineering Voice
-          Technical Magazine strives to foster innovation and collaboration
-          within the civil engineering community by highlighting groundbreaking
-          research, innovative projects, and emerging technologies. <br />
-          <br />
-          <span style={{ fontWeight: 500 }}>
-            CESS 19th committee successfully launched its technical magazine{" "}
-          </span>
-          <span style={{ color: "blue", fontWeight: 600 }}>
-            "Civil Engineering Voice Vol. IV"{" "}
-          </span>
-          <span style={{ fontWeight: 500 }}>
-            for the fourth time after the long duration of 6 years on 17th
-            Falgun, 2080.
-          </span>{" "}
-          Thank you so much for the co-operation and deep thanks from the bottom
-          of the heart for all the CEV team member for their collaboration with
-          CESS 19th committee and all the helping hands, sponsors and all
-          professions, seniors, students who supported us with their article for
-          the successful publication of the technical Magazine. 500 pieces of
-          hardcopy were printed which were distributed among the student with
-          free of cost and for different organizations form different districts,
-          sponsors and helping hands. And soft copy of it is available on
-          National library, CESS Page, CESS Website. This magazine from its
-          beginning is a great source of information and relentless motivation
-          for aspiring students trying to pursue their dream in this field.{" "}
-        </p>{" "}
-        <br /> <br />
-        <p style={{ color: "blue", fontWeight: 600 }}>CEV Team </p>
-        <p>1. Neerajan Basnet (Coordinator) </p>
-        <p>2. Supreme Thapa (Vice Coordinator) </p>
-        <p>3. Newraj Kumar Basnet (Accounting) </p> <br />
-        <p style={{ color: "blue", fontWeight: 600 }}>4. Article Collection</p>
-        <p>Nagendra Dahal </p>
-        <p>Umesh Kumar Gautam </p>
-        <p>Kamala G.C</p>
-        <br />
-        <p style={{ color: "blue", fontWeight: 600 }}>5. Designer</p>
-        <p>Mandip Adhikari </p>
-        <p>Riwaj Basnet</p>
-        <p>Dekendra Baduwal Sijapati</p>
-        <br />
-        <p style={{ color: "blue", fontWeight: 600 }}>
-          6. Advertisement Collection{" "}
-        </p>
-        <p>Jagdish Bist</p>
-        <p>Manisha Raya</p>
-        <p>Prajwal Kafle</p>
-        <p>Avinash Rai</p>
-      </>
-    ),
-    images: [],
+    images: [hmd1, hmd2, hmd3, hmd4, hmd5, hmd6],
   },
 ];

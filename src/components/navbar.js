@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import MenuItem from "@mui/material/MenuItem";
 
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { CESS_LOGO } from "../assets/assets-exp";
 import { Link, colors } from "@mui/material";
 
@@ -17,6 +17,7 @@ const pages = ["Home", "Members", "Events", "Magazine", "About"];
 const pagesmd = ["About", "Magazine", "Events", "Members", "Home"];
 
 function Navbar() {
+  const navigate = useNavigate();
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -30,7 +31,13 @@ function Navbar() {
   return (
     <AppBar
       elevation={0}
-      sx={{ background: "white", color: "black", position: "sticky", top: 0, zIndex:5}}
+      sx={{
+        background: "white",
+        color: "black",
+        position: "sticky",
+        top: 0,
+        zIndex: 5,
+      }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -38,13 +45,15 @@ function Navbar() {
           <CESS_LOGO
             height={50}
             width={50}
+            cursor={"pointer"}
             sx={{ display: { xs: "none", md: "flex" } }}
+            onClick={() => navigate("/")}
           />
           <Typography
+            onClick={() => navigate("/")}
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               ml: 2,
@@ -55,6 +64,7 @@ function Navbar() {
               color: colors.blue[900],
               textDecoration: "none",
               fontSize: "2rem",
+              cursor: "pointer",
             }}
           >
             CESS-ERC
@@ -62,7 +72,7 @@ function Navbar() {
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
-              size="large"
+              size="small"
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
@@ -72,7 +82,7 @@ function Navbar() {
               <MenuIcon />
             </IconButton>
             <Menu
-              id="menu-appbar"
+              // id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
                 vertical: "bottom",
@@ -148,7 +158,7 @@ function Navbar() {
                 }}
                 fontFamily={"Poppins"}
               >
-                {page}
+              {page}
               </Link>
             ))}
           </Box>

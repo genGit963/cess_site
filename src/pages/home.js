@@ -78,6 +78,7 @@ function ReviewCard({ name, pic, post, review }) {
           height={70}
           width={70}
           style={{ borderRadius: 35, objectFit: "cover" }}
+          loading="lazy"
         />
         <div style={{ margin: "4%", padding: 2 }}>
           <Typography fontWeight={500} fontSize={16} color={colors.blue[900]}>
@@ -142,6 +143,7 @@ function Home() {
                 boxShadow: "1px 6px 20px 1px rgba(0, 0, 0, .2)",
               }}
               alt="intro-pic"
+              loading="lazy"
             />
           </Item>
         </Grid>

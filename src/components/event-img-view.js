@@ -24,6 +24,9 @@ const EventImages = ({img_list}) => {
               alignItems: "center",
               height: "40px",
               width: "40px",
+              position:"absolute",
+              top:"3%",
+              right:"2%"
             }}
           />
         </div>
@@ -31,6 +34,7 @@ const EventImages = ({img_list}) => {
           className="model_img"
           src={temImg}
           alt="open_img"
+          loading="lazy"
           // onDoubleClick={setModel(false)}
         />
       </div>

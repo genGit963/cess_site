@@ -20,7 +20,7 @@
 .gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
-  cursor:zoom-in;
+  cursor: zoom-in;
   margin-bottom: 12px;
   border-radius: 5px;
 }
@@ -129,10 +129,4 @@
   }
 }
 
-
-
 /* ----------- footer ----------- */
-
-.mahesh:hover{
-  text-decoration: underline;
-}

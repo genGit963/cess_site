@@ -2,8 +2,9 @@ import { Box, Button, TextField, Typography, colors } from "@mui/material";
 
 const Contact = () => {
   return (
-    <Box flexGrow={1} fontFamily={"Poppins"}>
-      <Typography variant="h4" style={{ margin: "1% 2% 2% 0", color: colors.blue[900], fontWeight:500 }}>Contact</Typography>
+    <Box flexGrow={1} fontFamily={"Poppins"} sx={{margin:"4% 1%"}}>
+      <Typography variant="h4" style={{ margin: "1% 2% 2% 0", color: colors.blue[900], fontWeight:500, textAlign:"center" }}>Contact</Typography>
+      <div style={{border:"0.5px solid", borderColor:"rgb(0,0,0,0.3)"}} />
       <h2 style={{ margin: "1% 2% 2% 0" }}>We are just a mail away.</h2>
           <TextField
             label="Name"
@@ -30,9 +31,9 @@ const Contact = () => {
           />
       <Button
         variant="contained"
-        sx={{ margin: "1% 2% 2% 0", width: "10%" }}
+        sx={{ margin: "1% 2% 2% 0"}}
       >
-        Submit
+        Send Mail
       </Button>
     </Box>
   );

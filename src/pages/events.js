@@ -44,6 +44,7 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
           transition: "transform 0.3s ease",
           cursor: "pointer",
         }}
+        loading="lazy"
         alt={`${headline}_picture`}
       />
       <Typography
