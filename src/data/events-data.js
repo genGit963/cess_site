@@ -51,7 +51,7 @@ import act5 from "../assets/CESS/AutocadTraining/5.jpg";
 import act6 from "../assets/CESS/AutocadTraining/6. cover.jpg";
 
 // AutoCAD Drafting Competition sn: 6
-import adc from "../assets/CESS/AutoCADDrafting/1.jpg"
+import adc from "../assets/CESS/AutoCADDrafting/1.jpg";
 
 // CESS Alumni Unite and Registration sn:7
 import aur1 from "../assets/CESS/CivilAlumniDataRegistration/Cover.jpg";
@@ -77,6 +77,8 @@ import hmd4 from "../assets/CESS/HydropowerModel/4.H.jpg";
 import hmd5 from "../assets/CESS/HydropowerModel/5.H.jpg";
 import hmd6 from "../assets/CESS/HydropowerModel/6.H cover.jpg";
 
+// CESS magazine Vol.Iv sn:12
+import { participant } from "./magazine-data";
 
 export const events_data = [
   {
@@ -117,7 +119,7 @@ export const events_data = [
   {
     sn: 1,
     theme_pic: iac6,
-    headline: "1st Interaction and Career Counselling Program",
+    headline: "Interaction and Career Counselling Program",
     bit_detail:
       "CESS 19th Committee successfully completed its 1st event Interaction and Career Counselling Program on 15th Asar 2080. Through interactive sessions and one-on-one consultat....",
     in_depth: (
@@ -374,7 +376,7 @@ export const events_data = [
   },
   {
     sn: 6,
-    theme_pic:adc,
+    theme_pic: adc,
     headline: "AutoCAD Drafting Competition 2080",
     bit_detail:
       "CESS 19th committee successfully completed AutoCAD drafting competition i.e. Municipal Drawing including plan, section, elevation and detail drawing.....",
@@ -581,5 +583,94 @@ export const events_data = [
       </>
     ),
     images: [hmd1, hmd2, hmd3, hmd4, hmd5, hmd6],
+  },
+  {
+    sn: 12,
+    theme_pic: require("../assets/magazine/Mag_front.jpg"),
+    headline: "Civil Engineering Voice Vol.IV, 2080",
+    bit_detail:
+      'CESS 19th committee successfully launched its technical magazine "Civil Engineering Voice Vol. IV" for the fourth time after the long duration of 6 years on 17th Falgun, 2080. Thank you so much for the...',
+    in_depth: (
+      <>
+        <p>
+          With a focus on technical expertise and advancements, this magazine
+          serves as a premier platform for industry professionals, researchers,
+          and enthusiasts to stay abreast of the latest developments and trends
+          shaping the discipline. Moreover, the Civil Engineering Voice
+          Technical Magazine strives to foster innovation and collaboration
+          within the civil engineering community by highlighting groundbreaking
+          research, innovative projects, and emerging technologies.{" "}
+        </p>
+        <br />
+        <p>
+          CESS 19th committee successfully launched its technical magazine
+          <span style={{ fontWeight: "600" }}>
+            {" "}
+            "Civil Engineering Voice Vol. IV"
+          </span>{" "}
+          for the fourth time after the long duration of{" "}
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            {" "}
+            6 years on 17th Falgun, 2080
+          </span>
+          . Thank you so much for the co-operation and deep thanks from the
+          bottom of the heart for all the CEV team member for their
+          collaboration with CESS 19th committee and all the helping hands,
+          sponsors and all professions, seniors, students who supported us with
+          their article for the successful publication of the technical
+          Magazine. 500 pieces of hardcopy were printed which were distributed
+          among the student with free of cost and for different organizations
+          form different districts, sponsors and helping hands. And soft copy of
+          it is available on National library, CESS Page, CESS Website. This
+          magazine from its beginning is a great source of information and
+          relentless motivation for aspiring students trying to pursue their
+          dream in this field.{" "}
+        </p>
+        <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            Magazine Executor
+          </span>{" "}
+          <br />
+          Neerajan Basnet (Coordinator) <br />
+          Supreme Thapa (Vice Coordinator) <br />
+          Newraj Kumar Basnet (Accounting){" "}
+        </p>
+        <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>Designer</span>{" "}
+          <br />
+          Mandip Adhikari <br />
+          Riwaj Basnet
+          <br />
+          Dekendra Baduwal Sijapati
+        </p>
+        <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            Article Collector
+          </span>{" "}
+          <br />
+          Nagendra Dahal <br />
+          Umesh Kumar Gautam <br />
+          Kamala G.C
+        </p>{" "}
+        <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            Advertisement Collector
+          </span>{" "}
+          <br />
+          Jagdish Bist
+          <br />
+          Manisha Raya
+          <br />
+          Prajwal Kafle
+          <br />
+          Avinash Rai
+        </p>
+      </>
+    ),
+    images: participant,
   },
 ];

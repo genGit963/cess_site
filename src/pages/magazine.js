@@ -71,58 +71,133 @@ const Magazine = () => {
         Civil Engineering Voice Vol.IV
       </Typography>
       <Divider />
-      <Typography margin={"2.5%"} textAlign={"justify"}>
-        Ullamco dolor in culpa quis occaecat. Sunt proident officia veniam id
-        mollit. Excepteur culpa laborum qui aute fugiat mollit ullamco eiusmod
-        nulla sint consectetur laborum proident cupidatat. Et minim culpa aute
-        occaecat sint mollit magna adipisicing elit enim aliquip. Non
-        adipisicing ullamco proident ipsum qui nostrud ipsum commodo minim. Sunt
-        culpa sint laboris nulla non velit. Laboris mollit esse ullamco magna
-        esse occaecat sunt. Fugiat tempor minim do pariatur.
+      {/* ================= Detail ==================== */}
+      <div
+        style={{
+          margin: "5% auto",
+        }}
+      >
+        <p>
+          With a focus on technical expertise and advancements, this magazine
+          serves as a premier platform for industry professionals, researchers,
+          and enthusiasts to stay abreast of the latest developments and trends
+          shaping the discipline. Moreover, the Civil Engineering Voice
+          Technical Magazine strives to foster innovation and collaboration
+          within the civil engineering community by highlighting groundbreaking
+          research, innovative projects, and emerging technologies.{" "}
+        </p>
         <br />
-        <br /> Eu id quis minim qui Lorem deserunt laborum nisi aute anim et
-        velit anim. Mollit adipisicing deserunt duis cupidatat dolor commodo
-        nulla ea ad dolor ex id. Sunt laboris Lorem nostrud labore velit
-        adipisicing esse cupidatat. Elit est id elit commodo consequat culpa
-        cillum sint cillum ullamco ex culpa. Consequat culpa magna ut irure
-        duis.
+        <p>
+          CESS 19th committee successfully launched its technical magazine
+          <span style={{ fontWeight: "600" }}>
+            {" "}
+            "Civil Engineering Voice Vol. IV"
+          </span>{" "}
+          for the fourth time after the long duration of{" "}
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            {" "}
+            6 years on 17th Falgun, 2080
+          </span>
+          . Thank you so much for the co-operation and deep thanks from the
+          bottom of the heart for all the CEV team member for their
+          collaboration with CESS 19th committee and all the helping hands,
+          sponsors and all professions, seniors, students who supported us with
+          their article for the successful publication of the technical
+          Magazine. 500 pieces of hardcopy were printed which were distributed
+          among the student with free of cost and for different organizations
+          form different districts, sponsors and helping hands. And soft copy of
+          it is available on National library, CESS Page, CESS Website. This
+          magazine from its beginning is a great source of information and
+          relentless motivation for aspiring students trying to pursue their
+          dream in this field.{" "}
+        </p>
         <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            Magazine Executor
+          </span>{" "}
+          <br />
+          Neerajan Basnet (Coordinator) <br />
+          Supreme Thapa (Vice Coordinator) <br />
+          Newraj Kumar Basnet (Accounting){" "}
+        </p>
         <br />
-        Lorem dolore excepteur adipisicing est qui sint ullamco. Dolore aute
-        ullamco occaecat consectetur sint quis commodo dolor enim voluptate
-        consequat laborum sit. Voluptate ipsum aute sint culpa non. Labore eu id
-        occaecat irure consectetur sit aliquip amet ea est proident. Cupidatat
-        tempor sint labore culpa. Minim velit incididunt ex occaecat amet ipsum
-        et. Cupidatat mollit reprehenderit cupidatat sit consequat voluptate
-        eiusmod incididunt. Dolor Lorem excepteur minim aute minim fugiat dolore
-        minim labore aliqua pariatur.
-      </Typography>
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>Designer</span>{" "}
+          <br />
+          Mandip Adhikari <br />
+          Riwaj Basnet
+          <br />
+          Dekendra Baduwal Sijapati
+        </p>
+        <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            Article Collector
+          </span>{" "}
+          <br />
+          Nagendra Dahal <br />
+          Umesh Kumar Gautam <br />
+          Kamala G.C
+        </p>{" "}
+        <br />
+        <p>
+          <span style={{ fontWeight: "600", color: "blue" }}>
+            Advertisement Collector
+          </span>{" "}
+          <br />
+          Jagdish Bist
+          <br />
+          Manisha Raya
+          <br />
+          Prajwal Kafle
+          <br />
+          Avinash Rai
+        </p>
+      </div>
 
+      {/* Magazine COVER IMAGES */}
       <div
         style={{
           display: "flex",
           flexDirection: "row",
+          justifyContent: "space-between",
           margin: "5% auto",
-          width: "100%",
-          border: "1px solid",
+          // border: "2px solid",
         }}
       >
-        <img
-          style={{ height: "auto", width: "50%", objectFit: "cover", margin:"auto" }}
-          loading="lazy"
-          src={require("../assets/magazine/Mag_front.jpg")}
-          alt="font_mag"
-        />
-        <img
-          style={{ height: "auto", width: "45%", objectFit: "cover", margin:"auto"}}
-          loading="lazy"
-          src={require("../assets/magazine/Mag_back.jpg")}
-          alt="font_mag"
-        />
+        <div style={{ width: "53%" }}>
+          <img
+            style={{
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+              borderRadius: 8,
+            }}
+            loading="lazy"
+            src={require("../assets/magazine/Mag_front.jpg")}
+            alt="font_mag"
+          />
+        </div>
+
+        <div style={{ width: "47%" }}>
+          <img
+            style={{
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+              borderRadius: 8,
+
+            }}
+            loading="lazy"
+            src={require("../assets/magazine/Mag_back.jpg")}
+            alt="back_mag"
+          />
+        </div>
       </div>
 
       <div>
-        <Typography textAlign={"center"} variant="h4" color={"rgb(0,0,0,0.70)"}>
+        <Typography textAlign={"center"} variant="h5" color={"rgb(0,0,0,0.70)"}>
           Magazine Team Members
         </Typography>
         <div
@@ -152,11 +227,11 @@ const Magazine = () => {
         </div>
         <Typography
           textAlign={"center"}
-          variant="h4"
+          variant="h5"
           marginTop={"50px"}
           color={"rgb(0,0,0,0.70)"}
         >
-          Lunch Day
+          Lunch Day: 17th Falgun 2080
         </Typography>
         <div
           style={{

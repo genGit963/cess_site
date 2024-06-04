@@ -28,7 +28,9 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
     padding: "3%",
     margin: "4% auto",
     borderRadius: "10px",
-    boxShadow: `1px 1px 1px 1px ${colors.grey[300]}`,
+    // boxShadow: `1px 1px 1px 1px ${colors.grey[300]}`,
+    border:"0.5px solid rgb(0,0,0,0.15)",
+    boxShadow: `0px 0px 5px rgb(0,0,0,0.15)`,
   };
   return (
     <Card elevation={0} sx={card_style}>
@@ -40,7 +42,7 @@ function EventCard({ sn, theme_pic, headline, bit_detail }) {
           borderRadius: 8,
           objectFit: "cover",
           margin: "2% auto",
-          boxShadow: "1px 1px 5px gray",
+          // boxShadow: "1px 1px 5px gray",
           transition: "transform 0.3s ease",
           cursor: "pointer",
         }}

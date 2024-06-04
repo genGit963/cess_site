@@ -95,7 +95,14 @@ function Footer() {
               fontFamily: "Poppins",
             }}
           >
-            Facbook Twitter Insta
+            <a
+              href="https://www.facebook.com/cess.purwanchal"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textAlign: "center", alignItems: "center" }}
+            >
+              Facebook
+            </a>
           </Item>
         </Grid>
       </Grid>
@@ -106,12 +113,12 @@ function Footer() {
           <a
             target="_blanck"
             href="https://www.linkedin.com/in/mahesh-bogati-540066262/"
-            style={{textDecoration: "none", color: colors.blue[900] }}
+            style={{ textDecoration: "none", color: colors.blue[900] }}
           >
             {" "}
             Mahesh Bogati / 076BEI
           </a>
-          <br/>
+          <br />
           <a
             target="_blanck"
             href="https://bogatimahesh.com.np"
